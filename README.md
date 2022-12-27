@@ -53,6 +53,6 @@ streamlit run scribe_buddy.py
 1) https://docs.conda.io/en/latest/
 2) https://www.youtube.com/@DataProfessor
 3) https://github.com/terry3041/pyChatGPT
-4) Anshuman
+4) Anshuman Tiwari
 
 
