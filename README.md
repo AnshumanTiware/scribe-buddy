@@ -21,9 +21,7 @@ Here is the link to the repository.
 https://github.com/AnshumanTiware/scribe-buddy
 ```
 # Watch the tutorial video
-Watch the web app in action in the video here: 
-
-<a href="https://youtu.be/NNq_XBVk30w"><img src="http://img.youtube.com/vi/NNq_XBVk30w/0.jpg" alt="How to build your own Speech-to-Text Transcription App in Python using AssemblyAI" title="How to build your own Speech-to-Text Transcription App in Python using AssemblyAI" width="500" /></a>
+[Watch the web app in action in the video here](https://youtu.be/Lt4nL410TmU) 
 
 # 1. Obtain the AssemblyAI and OpenAI API keys
 
