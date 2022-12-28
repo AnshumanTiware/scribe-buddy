@@ -29,6 +29,30 @@ background-size: cover;
 """ 
 st.markdown(page_bg_image, unsafe_allow_html=True)
 # Custom functions 
+# 1. Remove Redundant Files from the current directory
+import os 
+path1= './yt.srt'
+
+path2= './yt.txt'
+path3= './transcription'
+isExist1 = os.path.exists(path1)
+isExist2 = os.path.exists(path2)
+isExist3 = os.path.exists(path3)
+if isExist1:
+    os.remove("./yt.srt")
+    print("Yes1")
+if isExist2:
+    os.remove("./yt.txt")
+    print("Yes2")
+if isExist3:
+    os.rmdir("./transcription")
+    print('Yes3')
+for File in os.listdir("."):
+    if File.endswith(".mp4"):
+        os.remove(File)
+for File in os.listdir("."):
+    if File.endswith(".zip"):
+        os.remove(File)
 
 # 2. Retrieving audio file from YouTube video
 def get_yt(URL):
