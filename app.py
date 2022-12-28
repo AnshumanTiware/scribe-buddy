@@ -28,9 +28,7 @@ background-size: cover;
 </style>
 """ 
 st.markdown(page_bg_image, unsafe_allow_html=True)
-# Custom functions git 
 # 1.Remove Redundant Files from the current directory
-import os 
 path1= './yt.srt'
 
 path2= './yt.txt'
